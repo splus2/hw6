@@ -917,7 +917,16 @@ figure p.line33 {
 .sidebar2 ul li a {
 	padding-left: 10px;
 	letter-spacing: -0.5px;
+
 }
+
+
+.sidebar2 ul li span {
+	padding-left: 10px;
+	letter-spacing: -0.5px;
+    color: #465961;
+}
+
 
 .sidebar2 .select {
 	padding-top: 15px;

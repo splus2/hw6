@@ -164,7 +164,8 @@
 								<div class="sz-tl"><span><b>Сезон:</b></span></div>
 
 								<div class="season-ch">
-									<div class="summer">									<input type="checkbox" name="check-leto" id="check-leto">
+									<div class="summer">
+										<input type="checkbox" name="check-leto" id="check-leto">
 										<label for="check-leto" class="text-sezon1">лето</label>	
 									</div>
 									<div>
@@ -336,34 +337,64 @@
 				<p class="second-s2"><img src="img/second-icon.png" alt="">Шины</p>
 				<form action="select.php" name="choose">
 					<ul>
-						<li><input type="checkbox" class="box" name="b1" value="off"><a href="#">Бренд 1</a></li>
-						<li><input type="checkbox" class="box" name="b2" value="off"><a href="#">Бренд 2</a></li>
-						<li><input type="checkbox" class="box" name="b3" value="off"><a href="#">Бренд 3</a></li>
-					</ul>
-					<p class="second-s3"><img src="img/second-icon.png" alt="">Диски</p>
-					<ul>
-						<li><input type="checkbox" class="box" name="d1" value="off"><a href="#">Бренд 1</a></li>
-						<li><input type="checkbox" class="box" name="d2" value="off"><a href="#">Бренд 2</a></li>
-						<li><input type="checkbox" class="box" name="d3" value="off"><a href="#">Бренд 3</a></li>
-					</ul>
-				</form>
-				<div class="select">
-					<p><button class="create">Выбрать</button></p>	
-				</div>	
-			</aside><!-- end of right sidebar -->
+						<li>
+							<div>
+								<input type="checkbox" class="box" name="b1" id="b1">
+								<label for="b1" ><span>Бренд 1</span></label>
+							</div>
+						</li>
+						<li>
+							<div>
+								<input type="checkbox" class="box" name="b2" id="b2">
+								<label for="b2" ><span>Бренд 2</span></label>
+							</div>
+							<li>
+								<div>
+									<input type="checkbox" class="box" name="b3" id="b3">
+									<label for="b3" ><span>Бренд 3</span></label>
+								</div>
+							</li>
+						</ul>
+						<p class="second-s3"><img src="img/second-icon.png" alt="">Диски</p>
+						<ul>
+							<li>
+								<div>
+									<input type="checkbox" class="box" name="d1" id="d1">
+									<label for="d1" ><span>Бренд 1</span></label>
+								</div>
+							</li>
+							<li>
+								<div>
+									<input type="checkbox" class="box" name="d2" id="d2">
+									<label for="d2" ><span>Бренд 2</span></label>
+								</div>
+							</li>
+							<li>
 
-		</section><!-- end of #main content and sidebars-->
+								<div>
+									<input type="checkbox" class="box" name="d3" id="d3">
+									<label for="d3" ><span>Бренд 3</span></label>
+								</div>
+							</li>
+						</ul>
+					</form>
+					<div class="select">
+						<p><button class="create">Выбрать</button></p>	
+					</div>	
+				</aside><!-- end of right sidebar -->
 
-		<footer> <!-- footer-area -->
-			<section class="footer-area"> <!-- footer with two segments -->
-				<img src="img/brand-logo.png" alt=""> <!-- Brand Logo image -->
-				<section class="footer-segment"> 
-					<p class="inner-top"><a href="#">О компании</a> | <a href="#">Доставка</a> | <a href="#">Статьи</a> | <a href="#">Контакты</a></p>
-					<p class="inner-bottom">Создание сайта &copy; Global Vision</p>
-				</section>
-			</section>	
-		</footer> <!-- end of footer-area -->
+			</section><!-- end of #main content and sidebars-->
 
-	</div> <!-- #wrapper -->
-</body>
-</html>
+			<footer> <!-- footer-area -->
+				<section class="footer-area"> <!-- footer with two segments -->
+					<img src="img/brand-logo.png" alt=""> <!-- Brand Logo image -->
+					<section class="footer-segment"> 
+						<p class="inner-top"><a href="#">О компании</a> | <a href="#">Доставка</a> | <a href="#">Статьи</a> | <a href="#">Контакты</a></p>
+						<p class="inner-bottom">Создание сайта &copy; Global Vision</p>
+					</section>
+				</section>	
+			</footer> <!-- end of footer-area -->
+
+		</div> <!-- #wrapper -->
+	</body>
+	</html>
